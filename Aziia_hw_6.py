@@ -41,10 +41,10 @@ class Data:
         self.__color = value
 
 
-files = 'full_name_file.txt'
-files1 = 'email_file.txt'
+files = 'full_name.txt'
+files1 = 'email.txt'
 files2 = 'name.txt'
-files3 = 'color_file.txt'
+files3 = 'color.txt'
 file_path4 = 'MOCK_DATA.txt'
 
 
@@ -105,7 +105,7 @@ def RemList():
     file = open('email.txt', mode='r', encoding='latin-1')
     file.close()
 
-    file = open('file_name.txt', mode='r', encoding='latin-1')
+    file = open('file.txt', mode='r', encoding='latin-1')
     file.close()
 
     file = open('color.txt', mode='r', encoding='latin-1')
